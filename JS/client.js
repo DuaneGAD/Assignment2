@@ -48,7 +48,10 @@ const addToUsersBox = function (username) {
   `;
     //set the inboxPeople div with the value of userbox
     inboxPeople.innerHTML += userBox;
+    messageBox.innerHTML += `<span class="join">${username} has entered the chat</span><br>`;
+    alert('A new user joined');
 };
+
 
 //call 
 newUserConnected();
@@ -63,6 +66,7 @@ socket.on("new user", function (data) {
 //when a user leaves
 socket.on("user disconnected", function (userName) {
   document.querySelector(`.${userName}-userlist`).remove();
+  messageBox.innerHTML += `<span class="join">${userName} has left the chat</span><br>`;
 });
 
 
@@ -84,6 +88,7 @@ const addNewMessage = ({ user, message }) => {
       </div>
     </div>
   </div>`;
+    
 
   const myMsg = `
   <div class="outgoing__message">
@@ -111,7 +116,7 @@ messageForm.addEventListener("submit", (e) => {
 
   socket.emit("chat message", {
     message: inputField.value,
-    nick: userName,
+    nick: username,
   });
 
   inputField.value = "";
