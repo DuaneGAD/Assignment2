@@ -375,24 +375,31 @@ z-index: 8;
     padding: 2px;
 }
 /* Basically the chat messages appearance */
+
+
+
+
 .messages__history{
 	position: fixed;
 	top: 37%;
-	left: 60.3%;
+	left: 55.5%;
 z-index: 8;
       text-align: right;
     color: #797979;
     background-color: #61ff74;
-padding: 5px;
+padding: 7px;
 -moz-border-radius: 10px;
 -webkit-border-radius: 10px;
 -o-border-radius: 10px;
 -ms-border-radius: 10px;
-border-radius: 10px;
+border-radius: 15px;
     word-wrap: break-word;
-    width: 12%;
+    max-width: 17%;
+    min-width: 17%;
+    width: auto;
     font-family: Arial;
     font-size: 15px;
+    height: auto;  
 }
 
 .messages__history:empty
