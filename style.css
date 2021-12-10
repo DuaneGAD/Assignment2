@@ -1,0 +1,481 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  /* Style the side navigation */
+  .sidenav {
+     height: 51.7%;
+    width: 17%;
+    position: fixed;
+    z-index: 8;
+    top: 42%;
+    left: 24.3%;
+    background-color: transparent;
+    overflow-x: hide;
+          z-index: 9;
+      text-align: center;
+  }
+
+  /*make the active user text inherit style from container*/
+
+  
+  
+  /* Side navigation links */
+  .sidenav a {
+    color: white;
+    padding: 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+
+  
+  /* Change color on hover */
+  .sidenav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Style the content */
+  .content {
+    margin-left: 200px;
+    padding-left: 20px;
+  }
+
+*{
+	margin: 0;
+	padding: 0;
+	
+}
+
+.WebContainer{
+	width: 100%;
+	height: auto;
+}
+.articles{
+	width:90%;
+	height: auto;
+	margin: auto;
+}
+
+header{
+    background-color: #f6f6f6;
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+
+body{
+    background-color: #f6f6f6;
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+
+footer{
+    background-color: #fff;
+    height: 7vh;
+	background-size: cover;
+}
+
+
+.smoke{
+	position: absolute;
+    bottom: 0%;
+	height: 70%;
+	width: 100%;
+	opacity: 35%;
+    z-index: 4;
+
+}
+
+.me{
+	position: absolute;
+    bottom: 0%;
+	right: 15.5%;
+	height: 130%;
+	width: auto;
+	opacity: 100%;
+    z-index: 4;
+
+}
+
+.scribble{
+	position: absolute;
+    bottom: 17%;
+	right: 23.4%;
+	height: 65%;
+	width: auto;
+	opacity: 40%;
+    z-index: 3;
+}
+.background img{
+    position: absolute;
+	width: 100%;
+	height: 89%;
+    z-index: 1;
+
+}
+.map img{
+	width: 60%;
+	height: auto;
+	border: 5px solid #ff6f6f;
+}
+
+.logo{
+	position: absolute;
+	top: 0.5%;
+	text-align: center;
+	left: 0%;
+	right: 0%;
+	width: auto;
+	height: 4%;
+	font-family: Brush Script MT, cursive;
+	font-size: 220%;
+	color: #efefef;
+
+}
+
+.Banner img{
+	width: 60%;
+	height: auto;
+	border: 5px solid #ff6f6f;
+	border-style: dotted;
+}
+
+.main{
+	max-width: 80%;
+	margin: auto;
+}
+
+.title{
+	position: absolute;
+	top: 15%;
+	left: 0;
+    right: 0;
+z-index: 2;
+}
+
+.title h1{
+	color: #aab9c2;
+	font-size: 400%;
+  text-shadow: 1.5px 1.5px #474747;
+    z-index: 2;
+  font-family: Brush Script MT, Brush Script Std, cursive;
+}
+
+.texta{
+	position: absolute;
+	top: 35%;
+	left: 8.5%;
+z-index: 2;
+}
+
+.texta h1{
+	color: #474747;
+	font-size: 600%;
+    z-index: 2;
+  font-family: Courier;
+}
+
+.texta2{
+	position: absolute;
+	top: 53%;
+	left: 15%;
+z-index: 2;
+}
+
+.texta2 p{
+	color: #474747;
+	font-size: 150%;
+    z-index: 2;
+  font-family: 'Courier New', monospace;
+}
+
+ /* UNI Logo on Home Page */
+.uni{
+	position: absolute;
+    left: 0.8%;
+    bottom: 2%;
+	width: 9%;
+	height: auto;
+    opacity: 60%;
+    z-index: 9;
+}
+
+.button{
+	margin: 0;
+	position: absolute;
+	top: 7.6%;
+	left: 0%;
+	right: 0%;
+	color: #585858;
+    z-index: 6;
+}
+
+.btna{
+    background-color: #d5d5d5;
+	border: 0px solid #9c9c9c;
+	padding: 10px 30px;
+	color: #585858;
+	text-decoration: none;
+	transition: 0.3s ease;
+	font-family: Arial;
+    z-index: 7;
+}
+
+.btna {border-radius: 50px;}
+
+.btna:hover{
+	background-color: #fff;
+	color: #aab9c1;
+	font-family: Arial;
+}
+
+.btn{
+	border: 0px solid #9c9c9c;
+	padding: 10px 30px;
+	color: #585858;
+	text-decoration: none;
+	transition: 0.3s ease;
+	font-family: Arial;
+    z-index: 7;
+}
+
+.btn {border-radius: 50px;}
+
+
+.btn:hover{
+	background-color: #fff;
+	color: #aab9c1;
+	font-family: Arial;
+}
+
+.top{
+	background-color: #585858;
+	height: 6%;
+}
+
+.under{
+	background-color: #efefef;
+	height: 5%;
+    z-index: 6;
+}
+
+.insta{
+    position: absolute;
+    top: 60%;
+    left: 23.5%;
+	width: 2%;
+	height: auto;
+    z-index: 7;
+
+}
+
+.snap{
+    position: absolute;
+    top: 60%;
+    left: 28.5%;
+	width: 2%;
+	height: auto;
+    z-index: 7;
+
+}
+
+.twitter{
+    position: absolute;
+    top: 60%;
+    left: 33.5%;
+	width: 2%;
+	height: auto;
+    z-index: 7;
+
+}
+ /* bill board designed in photoshop */
+.bill{
+	position: absolute;
+    bottom: 0%;
+    left: 10%;
+	height: 100%;
+	width: auto;
+	opacity: 100%;
+    z-index: 5;
+
+}
+ /* Mountain png behind the billboard on about page */
+.mountain{
+	position: absolute;
+    bottom: 0%;
+    left: 0%;
+	height: auto;
+	width: 100%;
+	opacity: 100%;
+    z-index: 4;
+
+}
+ /* The Photoshop macbook layout i designed */
+.macbook{
+	position: absolute;
+    bottom: 0%;
+    left: 15%;
+	height: 80%;
+	width: auto;
+	opacity: 100%;
+    z-index: 5;
+
+}
+
+ /* The log in text in the log in page */
+.LC{
+	position: absolute;
+	top: 11%;
+	left: 0;
+    right: 0;
+z-index: 2;
+}
+
+.LC h1{
+	color: #aab9c2;
+	font-size: 400%;
+  text-shadow: 1.5px 1.5px #474747;
+    z-index: 2;
+  font-family: Brush Script MT, Brush Script Std, cursive;
+}
+ /* The red circle animation on the chat page */
+.pulse{
+    position: absolute;
+    top: 13.5%;
+    left: 57%;
+	width: 2%;
+	height: auto;
+    z-index: 8;
+
+}
+
+
+.message_form__input{
+	position: absolute;
+	top: 88%;
+	left: 44%;
+z-index: 8;
+    padding: 2px;
+}
+
+.message_form__button{
+	position: absolute;
+    font-size: 85%;
+	top: 88%;
+	left: 66.32%;
+z-index: 8;
+    padding: 2px;
+}
+/* Basically the chat messages appearance */
+.messages__history{
+	position: fixed;
+	top: 37%;
+	left: 60.3%;
+z-index: 8;
+      text-align: right;
+    color: #797979;
+    background-color: #61ff74;
+padding: 5px;
+-moz-border-radius: 10px;
+-webkit-border-radius: 10px;
+-o-border-radius: 10px;
+-ms-border-radius: 10px;
+border-radius: 10px;
+    word-wrap: break-word;
+    width: 12%;
+    font-family: Arial;
+    font-size: 15px;
+}
+
+.messages__history:empty
+{
+   padding:0;
+}
+
+.inbox__people{
+	position: absolute;
+	top: -15%;
+	left: 38%;
+z-index: 8;
+}
+
+.inbox__people h4{
+    text-align: left;
+    padding: 16px;
+	color: #797979;
+	font-size: 100%;
+    z-index: 8;
+  font-family: Arial;
+}
+ /* Shows the users in the chat page */
+.userz{
+    position: absolute;
+    left: 48%;
+    top: 68.5%;
+    z-index: 8;
+    color: #797979;
+    
+}
+
+.form-control{
+    position: absolute;
+    left: 46%;
+    top: 73%;
+    z-index: 8;
+    
+}
+ /* Join chat button in user.html */
+.btn2{
+    position: absolute;
+    top: 86%;
+    left: 47.5%;
+	border: 0px solid #9c9c9c;
+	padding: 10px 30px;
+	color: #585858;
+	text-decoration: none;
+	transition: 0.3s ease;
+	font-family: Arial;
+    z-index: 8;
+    	background-color: #b8c2cd;
+}
+
+.btn2 {border-radius: 100px;}
+
+
+.btn2:hover{
+	background-color: #fff;
+	color: #aab9c1;
+	font-family: Arial;
+}
+ /* Leave chat button on chat html */
+.leave{
+      position: absolute;
+    top: 86%;
+    left: 31.5%;
+	border: 0px solid #9c9c9c;
+	padding: 5px 15px;
+	color: #585858;
+	text-decoration: none;
+	transition: 0.3s ease;
+	font-family: Arial;
+    z-index: 10;
+    	background-color: #b8c2cd;
+}
+
+.leave {border-radius: 100px;}
+
+
+.leave:hover{
+	background-color: #fff;
+	color: #aab9c1;
+	font-family: Arial;
+}
+
